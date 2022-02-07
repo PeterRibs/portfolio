@@ -1,0 +1,66 @@
+@import "./variables";
+@import "./buttons";
+
+#projects {
+    background-color: $white-color;
+    color: $dark-blue-text;
+}
+
+.project-wrapper {
+    display: grid;
+    color:#FFF;
+    font-size:1.5em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+}
+
+.row:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.row {
+    background-color: $primary-color;
+    width: 100%;
+}
+
+.row > img{
+    width: 100%;
+}
+
+.project-wrapper__text-title {
+    text-align: justify;
+    font-weight: bold;
+    margin: 1rem;
+    font-size: $mid-font-size;
+}
+
+.project-wrapper__image{
+    width: 100%;
+    margin: auto;
+}
+
+.mb-4{
+    font-size: $default-font-size;
+    margin: 1rem 1rem;
+    text-align: justify;
+}
+
+.img-fluid{
+    width: 90%;
+    justify-self: center;
+    margin: auto;
+}
+
+.img-fluid:hover{
+    width: 100%;
+}
+
+.imgProj{
+    display: grid;
+    margin: auto;
+}

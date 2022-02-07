@@ -1,0 +1,61 @@
+@import "./variables";
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.container{
+    height: 100%;
+    text-align: start;
+    padding: 3rem;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: $mid-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-color-main{
+    color: rgb(70, 70, 70);
+}
+
+.darkbluebg{
+    background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%); /* Old browsers */
+    background: -moz-linear-gradient(135deg, $primary-color 0%, $secondary-color 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$primary-color), color-stop(100%,$secondary-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(135deg, $primary-color 0%,$secondary-color 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(135deg, $primary-color 0%,$secondary-color 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(135deg, $primary-color 0%,$secondary-color 100%); /* IE10+ */
+    background: linear-gradient(135deg, $primary-color 0%,$secondary-color 100%); /* W3C */
+}
+
+.dark-blue-text {
+    color: $dark-blue-text !important;
+}
+
+.text-color-project {
+    color: white;
+    &:hover {
+      transform: translateX(10px);
+    }
+}
+
+a{
+    text-decoration: none;
+}

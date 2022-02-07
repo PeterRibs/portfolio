@@ -1,0 +1,31 @@
+@import "./variables";
+
+nav{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    justify-content: end;
+    font-size: $default-font-size;
+    z-index: 1030;
+}
+
+.main-nav{
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    padding: 10px;
+    color: white
+}
+
+.nav-list:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}

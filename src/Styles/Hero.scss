@@ -1,0 +1,15 @@
+@import "./variables";
+
+#hero{
+    height: 100%;
+
+}
+
+.hero-title {
+    font-size: $big-font-size;
+    font-weight: 700;
+    text-align: left;
+    margin: auto;
+    height: 100%;
+    padding: 15px 0px;
+}
