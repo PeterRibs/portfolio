@@ -19,6 +19,13 @@ function About (){
                                 <li>Web APIs</li>
                                 <li>NPM</li>
                                 <li>REACT</li>
+                                <li>GitHub</li>
+                                <li>Node.js</li>
+                                <li>PostgreSQL</li>
+                                <li>Postman</li>
+                                <li>R</li>
+                                <li>Python</li>
+                                <li>Julia Programming Language</li>
                             </ul>
                             <span className="d-flex mt-3">
                                 <a
@@ -35,7 +42,7 @@ function About (){
                     <div className="col-md-6 col-sm-12">
                         <div className="about-wrapper__info load-hidden">
                             <p className="about-wrapper__info-text">
-                                Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia, where I realized that it could be better used. I started studying HTML, CSS and Javascript to become a software developer.
+                                Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, I started studying HTML, CSS and Javascript to become a software developer.
                             </p>
                         </div>
                     </div>

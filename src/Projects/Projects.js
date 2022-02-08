@@ -6,6 +6,8 @@ import BGG from "../Figs/BGG.png"
 import calculadora from "../Figs/calculadora.png"
 import todolist from "../Figs/todolist.png"
 import R2D2 from "../Figs/R2D2.png"
+import tictactoe from "../Figs/tictactoe.png"
+import simplegame from "../Figs/simple game.png"
 
 function Project () {
     return (
@@ -175,7 +177,47 @@ function Project () {
                     </div>
                     {/* <!-- /END Project 4 --> */}
 
-                    {/* <!-- Project 5--> */}
+                    {/*<!--project5-->*/}
+                    <div className="row">
+                        <div className="project-wrapper__text load-hidden">
+                            <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
+                            <div className="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="https://peterribs.github.io/TicTacToe/" target="_blank">
+                                    <div className="imgProj">
+                                        <img
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={tictactoe}
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                            A simple Tic Tac Toe game! Let's heve fun!
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn cta-btn--hero"
+                            href="https://peterribs.github.io/TicTacToe/"
+                            >
+                            See Live
+                            </a>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/TicTacToe/"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!--End project5--> */}
+
+                    {/* <!-- Project 6--> */}
                     <div className="row">
                         <div className="project-wrapper__text load-hidden">
                             <h3 className="project-wrapper__text-title">ToDoList</h3>
@@ -213,7 +255,47 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 5 --> */}
+                    {/* <!-- /END Project 6 --> */}
+
+                    {/* <!-- Project 7--> */}
+                    <div className="row">
+                        <div className="project-wrapper__text load-hidden">
+                            <h3 className="project-wrapper__text-title">Simple Game</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">
+                                <div className="imgProj">
+                                    <img
+                                    alt="Project_Image"
+                                    className="img-fluid"
+                                    src={simplegame}
+                                    />
+                                </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                            A simple game that the quest is to kill the monster before the monster kills you! 
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn cta-btn--hero"
+                            href="https://peterribs.github.io/simplegame/"
+                            >
+                            See Live
+                            </a>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/simplegame"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!-- /END Project 7 --> */}
 
                 </div>
             </div>
