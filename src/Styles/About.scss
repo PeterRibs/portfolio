@@ -13,28 +13,28 @@
 
 .about-wrapper {
   display: flex;
+  flex-wrap: wrap;
 
   &__skills {
     height: 100%;
     width: 30%;
     align-items: center;
     justify-content: center;
-    padding: 0px 3rem;
+    padding: 0px 2rem;
     margin: auto;
   }
   
   &__info {
     display: flex;
-
     width: 60%;
     height: 100%;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: auto;
 
     &-text {
-      text-align:center;
+      text-align:justify;
       font-size: 1.8rem;
     }
   }
