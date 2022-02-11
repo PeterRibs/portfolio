@@ -182,7 +182,7 @@ function Project () {
                         <div className="project-wrapper__text load-hidden">
                             <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
                             <div className="project-wrapper__image load-hidden">
-                                <a rel="noreferrer" href="https://peterribs.github.io/TicTacToe/" target="_blank">
+                                <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
