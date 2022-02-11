@@ -6,6 +6,10 @@
     color: $dark-blue-text;
 }
 
+.dark-blue-text {
+    color: $dark-blue-text !important;
+}
+
 .project-wrapper {
     display: grid;
     color:#FFF;
@@ -16,19 +20,19 @@
     grid-gap: 20px;
 }
 
-.row:hover {
+.card:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-.row {
+.card {
     background-color: $primary-color;
     width: 100%;
 }
 
-.row > img{
+.card > img{
     width: 100%;
 }
 
@@ -63,4 +67,11 @@
 .imgProj{
     display: grid;
     margin: auto;
+}
+
+.text-color-project {
+    color: white;
+    &:hover {
+      transform: translateX(10px);
+    }
 }

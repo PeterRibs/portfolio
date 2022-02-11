@@ -2,54 +2,52 @@
 @import "./buttons";
 
 #about {
-    background-color: $primary-color;
-    background-image: linear-gradient(
-      135deg,
-      $primary-color 0%,
-      $secondary-color 100%
-    );
-    color: $white-color;
-    height: 100%;
-    border-top: 0px;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    padding-bottom: 3rem;
+  color: $white-color;
+  height: 100%;
+  width: 100%;
+  border-top: 0px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+  padding-bottom: 3rem;
 }
 
 .about-wrapper {
+  display: flex;
+
+  &__skills {
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3rem;
+    margin: auto;
+  }
+  
+  &__info {
     display: flex;
 
-    &__skills {
-      height: 100%;
-      width: 30vw;
-      align-items: center;
-      justify-content: center;
-      padding-right: 2rem;
-    }
-    
-    &__info {
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      flex-direction: column;
-      padding-left: 2rem;
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
 
-      &-text {
-        text-align: justify;
-        font-size: 1.5rem;
+    &-text {
+      text-align:center;
+      font-size: 1.8rem;
     }
+  }
 }
-}
-
 .title-about {
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    font-weight: 600;
-    font-size: 1.6rem;
-    text-align: left;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: left;
 }
 
 .list-skills{
-    text-align: left;
-    font-size: 1.2rem;
-  }
+  text-align: left;
+  font-size: 1.4rem;
+}

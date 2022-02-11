@@ -8,13 +8,15 @@ nav{
     justify-content: flex-end;
     font-size: $default-font-size;
     z-index: 1030;
+
 }
 
 .main-nav{
     display: flex;
+    justify-content: flex-end;
+    list-style: none;
     margin: 0;
     padding: 10px;
-    list-style: none;
 }
 
 .nav-item{

@@ -3,10 +3,10 @@ import "../Styles/Contact.scss";
 
 function Contact() {
     return (
-        <section id="contact">
+        <section id="contact" className = "color-bg">
             <div>
                 <h2 className="section-title">Contact</h2>
-                <div className="contact-wrapper load-hidden">
+                <div className="contact-wrapper">
                     <div className="contact-wrapper__text">
                         <p>Phone: +55 61 981234517</p>
                         <p>E-mail: pedrohenriquelr@gmail.com</p>

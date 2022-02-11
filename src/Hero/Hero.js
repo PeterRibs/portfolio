@@ -6,7 +6,7 @@ function Hero () {
     return (
         <section id="hero">
             <div className="container">
-                <h1 className="hero-title load-hidden">
+                <h1 className="hero-title">
                 Hi, my name is <span className="text-color-main">Pedro Ribeiro</span>
                 <br />
                 Software Developer

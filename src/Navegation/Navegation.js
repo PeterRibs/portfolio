@@ -3,7 +3,7 @@ import "../Styles/Navegation.scss";
 
 function Navegation() {
     return (
-    <nav className="zone darkbluebg">
+    <nav className="color-bg">
         <ul className="main-nav">
             <li className="nav-list"><a className="nav-item" href="#">Home</a></li>
             <li className="nav-list"><a className="nav-item" href="#about">About</a></li>
@@ -12,7 +12,6 @@ function Navegation() {
         </ul>
     </nav>
     )
-
 }
 
 export default Navegation;

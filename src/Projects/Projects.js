@@ -12,16 +12,15 @@ import simplegame from "../Figs/simple game.png"
 function Project () {
     return (
         <section id="projects">
-            <div id="backdrop"></div>
             <div className="container">
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
 
                     {/* <!-- Project 1--> */}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">RoboFriends</h3>
-                            <div className="project-wrapper__image load-hidden">
+                            <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/appRoboFriends/">
                                     <div className="imgProj">
                                         <img
@@ -58,10 +57,10 @@ function Project () {
                     {/* <!-- /END Project 1 --> */}
 
                     {/* <!-- Project 2--> */}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Background Generator</h3>
-                            <div className="project-wrapper__image load-hidden">
+                            <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/background-generator/" target="_blank">
                                 <div className="imgProj">
                                     <img
@@ -98,10 +97,10 @@ function Project () {
                     {/* <!-- /END Project 2--> */}
 
                     {/* <!-- Project 3--> */}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">R2-D2</h3>
-                            <div className="project-wrapper__image load-hidden">
+                            <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/r2d2.github.io/" target="_blank">
                                     <div className="imgProj">
                                         <img
@@ -138,10 +137,10 @@ function Project () {
                     {/* <!-- /END Project 3 --> */}
 
                     {/* <!-- Project 4--> */}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Calculator</h3>
-                            <div className="project-wrapper__image load-hidden">
+                            <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/simpleCalculator/" target="_blank">
                                     <div className="imgProj">
                                         <img
@@ -178,10 +177,10 @@ function Project () {
                     {/* <!-- /END Project 4 --> */}
 
                     {/*<!--project5-->*/}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
-                            <div className="project-wrapper__image load-hidden">
+                            <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
                                     <div className="imgProj">
                                         <img
@@ -218,8 +217,8 @@ function Project () {
                     {/* <!--End project5--> */}
 
                     {/* <!-- Project 6--> */}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">ToDoList</h3>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/ToDoList/" target="_blank">
@@ -258,8 +257,8 @@ function Project () {
                     {/* <!-- /END Project 6 --> */}
 
                     {/* <!-- Project 7--> */}
-                    <div className="row">
-                        <div className="project-wrapper__text load-hidden">
+                    <div className="card">
+                        <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Game</h3>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">

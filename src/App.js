@@ -5,9 +5,9 @@ import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 
-function App(){
+const App = () => {
     return (
-        <div>
+        <div className="app">
             <Navegation />
             <Hero />
             <About />
