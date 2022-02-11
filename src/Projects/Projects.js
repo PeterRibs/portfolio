@@ -201,7 +201,7 @@ function Project () {
                             rel="noreferrer"
                             target="_blank"
                             className="cta-btn cta-btn--hero"
-                            href="https://peterribs.github.io/TicTacToe/"
+                            href="https://peterribs.github.io/tictactoe/"
                             >
                             See Live
                             </a>
