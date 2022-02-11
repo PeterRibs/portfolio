@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.21f196cf.css",
+    "main.css": "/portifolio/static/css/main.1f08ef95.css",
     "main.js": "/portifolio/static/js/main.c2c02070.js",
     "static/js/787.be55e6d0.chunk.js": "/portifolio/static/js/787.be55e6d0.chunk.js",
     "static/media/RoboFriends.png": "/portifolio/static/media/RoboFriends.168511988fca57269bc1.png",
@@ -11,12 +11,12 @@
     "static/media/simple game.png": "/portifolio/static/media/simple game.8f31fd0ca8e6006485d5.png",
     "static/media/calculadora.png": "/portifolio/static/media/calculadora.15136d39012554d00b6a.png",
     "index.html": "/portifolio/index.html",
-    "main.21f196cf.css.map": "/portifolio/static/css/main.21f196cf.css.map",
+    "main.1f08ef95.css.map": "/portifolio/static/css/main.1f08ef95.css.map",
     "main.c2c02070.js.map": "/portifolio/static/js/main.c2c02070.js.map",
     "787.be55e6d0.chunk.js.map": "/portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21f196cf.css",
+    "static/css/main.1f08ef95.css",
     "static/js/main.c2c02070.js"
   ]
 }
