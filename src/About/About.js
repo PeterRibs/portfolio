@@ -1,6 +1,20 @@
 import React from "react";
 import "../Styles/About.scss";
 import "../Styles/_buttons.scss";
+import html from '../Figs/html.png';
+import python from '../Figs/python.png';
+import css from '../Figs/css.png';
+import javascript from '../Figs/javascript.png';
+import r from '../Figs/r.png';
+import npm from '../Figs/npm.jpg';
+import julia from '../Figs/julia.png';
+import react from '../Figs/react.png';
+import api from '../Figs/api.png';
+import nodejs from '../Figs/nodejs.png';
+import postgresql from '../Figs/Postgresql.png';
+import postman from '../Figs/postman.png';
+import github from '../Figs/github.png';
+import figma from '../Figs/figma.jpg';
 
 function About (){
     return (
@@ -11,21 +25,22 @@ function About (){
                     <div className="about-wrapper__skills">
                         <p className="title-about">Skills</p>
                         <hr></hr>
-                        <ul className="list-skills">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>Web APIs</li>
-                            <li>NPM</li>
-                            <li>REACT</li>
-                            <li>GitHub</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                            <li>Postman</li>
-                            <li>R</li>
-                            <li>Python</li>
-                            <li>Julia Programming Language</li>
-                        </ul>
+                        <div className="list-skills">
+                            <img alt="HTML5" src={html} className='imgAbout'></img>
+                            <img alt="CSS3" src={css} className='imgAbout'></img>
+                            <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            <img alt="Python" src={python} className='imgAbout'></img>
+                            <img alt="R" src={r} className='imgAbout'></img>
+                            <img alt="REACT.js" src={react} className='imgAbout'></img>
+                            <img alt="Web APIs" src={api} className='imgAbout'></img>
+                            <img alt="NPM" src={npm} className='imgAbout'></img>
+                            <img alt="GitHub" src={github} className='imgAbout'></img>
+                            <img alt="Node.js" src={nodejs} className='imgAbout'></img>
+                            <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
+                            <img alt="Postman" src={postman} className='imgAbout'></img>
+                            <img alt="Figma" src={figma} className='imgAbout'></img>
+                            <img alt="Julia Programming Language" src={julia} className='imgAbout'></img>
+                        </div>
                         <span className="d-flex mt-3">
                             <a
                             rel="noreferrer"
@@ -39,7 +54,7 @@ function About (){
                     </div>
                     <div className="about-wrapper__info">
                         <p className="about-wrapper__info-text">
-                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, I started studying HTML, CSS and Javascript to become a software developer.
+                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, In order to improve my programming skills, I started studying HTML, CSS and Javascript.
                         </p>
                     </div>
                 </div>

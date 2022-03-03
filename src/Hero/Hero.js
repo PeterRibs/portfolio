@@ -9,7 +9,7 @@ function Hero () {
                 <h1 className="hero-title">
                 Hi, my name is <span className="text-color-main">Pedro Ribeiro</span>
                 <br />
-                Software Developer
+                Data Scientist and Software Developer
                 </h1>
             </div>
         </section>
