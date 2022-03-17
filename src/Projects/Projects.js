@@ -5,9 +5,18 @@ import RoboFriends from "../Figs/RoboFriends.png"
 import BGG from "../Figs/BGG.png"
 import calculadora from "../Figs/calculadora.png"
 import todolist from "../Figs/todolist.png"
+import python_analysis from "../Figs/python_analysis.png"
 import R2D2 from "../Figs/R2D2.png"
 import tictactoe from "../Figs/tictactoe.png"
 import simplegame from "../Figs/simple game.png"
+import tictactoe_py from "../Figs/tictactoe_py.png"
+import blackjack_py from "../Figs/blackjack_py.png"
+import html from '../Figs/html.png';
+import python from '../Figs/python.png';
+import css from '../Figs/css.png';
+import javascript from '../Figs/javascript.png';
+import react from '../Figs/react.png';
+
 
 function Project () {
     return (
@@ -16,10 +25,121 @@ function Project () {
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
 
+                {/* <!-- Project 1 - Py--> */}
+                <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Video Analysis</h3>
+                            <div>
+                                <img alt="Python" src={python} className='imgAbout'></img>
+                            </div>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/pythonvideoanalysis">
+                                    <div className="imgProj">
+                                        <img
+                                            href="https://github.com/PeterRibs/pythonvideoanalysis"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={python_analysis}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                In the field, I recorded the dance of a specie named Swallow-tailed Manakin. With each dance, we produced a script in Python using the packages OpenCV, math, NumPy, SciPy and Matplotlib to track the individuals in the flights and to extract their position. This script scans and tracks pixels based on color, which we set as “red” as a reference for males' heads.
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/pythonvideoanalysis"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!-- /END Project 1 - Py--> */}
+
+                    {/* <!-- Project 2 - Py--> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">BlackJack</h3>
+                            <div>
+                                <img alt="Python" src={python} className='imgAbout'></img>
+                            </div>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/blackjack_game">
+                                    <div className="imgProj">
+                                        <img
+                                            href="https://github.com/PeterRibs/blackjack_game"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={blackjack_py}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Welcome to BlackJack! Get as close to 21 as you can without lost your chips! Dealer hits until she reaches 17. Aces count as 1 or 11. Card output goes a letter followed by number of the face notation! Let's heve fun!
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/blackjack_game"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!-- /END Project 2 - Py --> */}
+
+                    {/* <!-- Project 3 - Py--> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
+                            <div>
+                                <img alt="Python" src={python} className='imgAbout'></img>
+                            </div>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/tictactoe_python">
+                                    <div className="imgProj">
+                                        <img
+                                            href="https://github.com/PeterRibs/tictactoe_python"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={tictactoe_py}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                A simple Tic Tac Toe game! But now, in PYTHOOOON! Let's heve fun again!
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/tictactoe_python"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!-- /END Project 3 - Py --> */}
+
                     {/* <!-- Project 1--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">RoboFriends</h3>
+                            <div>
+                                <img alt="REACT.js" src={react} className='imgAbout'></img>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/appRoboFriends/">
                                     <div className="imgProj">
@@ -60,6 +180,11 @@ function Project () {
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Background Generator</h3>
+                            <div>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/background-generator/" target="_blank">
                                 <div className="imgProj">
@@ -100,6 +225,10 @@ function Project () {
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">R2-D2</h3>
+                            <div>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/r2d2.github.io/" target="_blank">
                                     <div className="imgProj">
@@ -140,6 +269,11 @@ function Project () {
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Calculator</h3>
+                            <div>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/simpleCalculator/" target="_blank">
                                     <div className="imgProj">
@@ -153,7 +287,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                            A simple Simple Calculator to help with math. You can sum, subtract, multiply and divide.
+                                A simple Simple Calculator to help with math. You can sum, subtract, multiply and divide.
                             </p>
                             </div>
                             <a
@@ -180,6 +314,11 @@ function Project () {
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
+                            <div>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
                                     <div className="imgProj">
@@ -193,7 +332,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                            A simple Tic Tac Toe game! Let's heve fun!
+                                A simple Tic Tac Toe game! Let's heve fun!
                             </p>
                             </div>
                             <a
@@ -220,6 +359,11 @@ function Project () {
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">ToDoList</h3>
+                            <div>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/ToDoList/" target="_blank">
                                 <div className="imgProj">
@@ -260,6 +404,11 @@ function Project () {
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Game</h3>
+                            <div>
+                                <img alt="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                            </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">
                                 <div className="imgProj">
