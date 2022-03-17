@@ -1,6 +1,6 @@
 {
-  "name": "portifolio",
-  "homepage": "https://PeterRibs.github.io/portifolio",
+  "name": "portfolio",
+  "homepage": "https://PeterRibs.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
