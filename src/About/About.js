@@ -26,19 +26,18 @@ function About (){
                         <p className="title-about">Skills</p>
                         <hr></hr>
                         <div className="list-skills">
+                            <img alt="Python" src={python} className='imgAbout'></img>
+                            <img alt="R" src={r} className='imgAbout'></img>
+                            <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
                             <img alt="HTML5" src={html} className='imgAbout'></img>
                             <img alt="CSS3" src={css} className='imgAbout'></img>
                             <img alt="Javascript" src={javascript} className='imgAbout'></img>
-                            <img alt="Python" src={python} className='imgAbout'></img>
-                            <img alt="R" src={r} className='imgAbout'></img>
                             <img alt="REACT.js" src={react} className='imgAbout'></img>
                             <img alt="Web APIs" src={api} className='imgAbout'></img>
                             <img alt="NPM" src={npm} className='imgAbout'></img>
                             <img alt="GitHub" src={github} className='imgAbout'></img>
                             <img alt="Node.js" src={nodejs} className='imgAbout'></img>
-                            <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
                             <img alt="Postman" src={postman} className='imgAbout'></img>
-                            <img alt="Figma" src={figma} className='imgAbout'></img>
                             <img alt="Julia Programming Language" src={julia} className='imgAbout'></img>
                         </div>
                         <span className="d-flex mt-3">
@@ -54,7 +53,7 @@ function About (){
                     </div>
                     <div className="about-wrapper__info">
                         <p className="about-wrapper__info-text">
-                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, In order to improve my programming skills, I started studying HTML, CSS and Javascript.
+                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, In order to improve my programming skills, I also started studying HTML, CSS and Javascript.
                         </p>
                     </div>
                 </div>
