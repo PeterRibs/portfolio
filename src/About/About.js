@@ -14,7 +14,6 @@ import nodejs from '../Figs/nodejs.png';
 import postgresql from '../Figs/Postgresql.png';
 import postman from '../Figs/postman.png';
 import github from '../Figs/github.png';
-import figma from '../Figs/figma.jpg';
 
 function About (){
     return (
