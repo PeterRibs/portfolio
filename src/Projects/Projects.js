@@ -80,7 +80,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                Welcome to BlackJack! Get as close to 21 as you can without lost your chips! Dealer hits until she reaches 17. Aces count as 1 or 11. Card output goes a letter followed by number of the face notation! Let's heve fun!
+                                Welcome to BlackJack! Get as close to 21 as you can without lost your chips! Dealer hits until she reaches 17. Aces count as 1 or 11. Card output goes a letter followed by number of the face notation! Let's have fun!
                             </p>
                             </div>
                             <a
@@ -115,7 +115,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                A simple Tic Tac Toe game! But now, in PYTHOOOON! Let's heve fun again!
+                                A simple Tic Tac Toe game! But now, in PYTHOOOON! Let's have fun again!
                             </p>
                             </div>
                             <a
@@ -332,7 +332,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                A simple Tic Tac Toe game! Let's heve fun!
+                                A simple Tic Tac Toe game! Let's have fun!
                             </p>
                             </div>
                             <a
