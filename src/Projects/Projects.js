@@ -15,6 +15,9 @@ import html from '../Figs/html.png';
 import python from '../Figs/python.png';
 import css from '../Figs/css.png';
 import javascript from '../Figs/javascript.png';
+import probability from '../Figs/probability.png';
+import arithmetic from '../Figs/arithmetic.png';
+import budget from '../Figs/budget.png';
 import react from '../Figs/react.png';
 
 
@@ -27,108 +30,213 @@ function Project () {
 
                 {/* <!-- Project 1 - Py--> */}
                 <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Video Analysis</h3>
+                        <div>
+                            <img alt="Python" src={python} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/pythonvideoanalysis">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/pythonvideoanalysis"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={python_analysis}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            In the field, I recorded the dance of a specie named Swallow-tailed Manakin. With each dance, we produced a script in Python using the packages OpenCV, math, NumPy, SciPy and Matplotlib to track the individuals in the flights and to extract their position. This script scans and tracks pixels based on color, which we set as “red” as a reference for males' heads.
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/pythonvideoanalysis"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 1 - Py--> */}
+
+                {/* <!-- Project 2 - Py--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">BlackJack</h3>
+                        <div>
+                            <img alt="Python" src={python} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/blackjack_game">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/blackjack_game"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={blackjack_py}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            Welcome to BlackJack! Get as close to 21 as you can without lost your chips! Dealer hits until she reaches 17. Aces count as 1 or 11. Card output goes a letter followed by number of the face notation! Let's have fun!
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/blackjack_game"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 2 - Py --> */}
+
+                {/* <!-- Project 3 - Py--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
+                        <div>
+                            <img alt="Python" src={python} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/tictactoe_python">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/tictactoe_python"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={tictactoe_py}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            A simple Tic Tac Toe game! But now, in PYTHOOOON! Let's have fun again!
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/tictactoe_python"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 3 - Py --> */}
+
+                {/* <!-- Project 4 - Py--> */}
+                <div className="card">
                         <div className="project-wrapper__text">
-                            <h3 className="project-wrapper__text-title">Video Analysis</h3>
+                            <h3 className="project-wrapper__text-title">Probability Calculator</h3>
                             <div>
                                 <img alt="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://github.com/PeterRibs/pythonvideoanalysis">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/probability_calculator">
                                     <div className="imgProj">
                                         <img
-                                            href="https://github.com/PeterRibs/pythonvideoanalysis"
+                                            href="https://github.com/PeterRibs/probability_calculator"
                                             alt="Project_Image"
                                             className="img-fluid"
-                                            src={python_analysis}/>
+                                            src={probability}/>
                                     </div>
                                 </a>
                             </div>
                             <div>
                             <p className="mb-4">
-                                In the field, I recorded the dance of a specie named Swallow-tailed Manakin. With each dance, we produced a script in Python using the packages OpenCV, math, NumPy, SciPy and Matplotlib to track the individuals in the flights and to extract their position. This script scans and tracks pixels based on color, which we set as “red” as a reference for males' heads.
+                                Project Probability Calculator - FreeCodeCamp: "Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. What is the probability that a random draw of 4 balls will contain at least 1 red ball and 2 green balls? While it would be possible to calculate the probability using advanced mathematics, an easier way is to write a program to perform a large number of experiments to estimate an approximate probability."
                             </p>
                             </div>
                             <a
                             rel="noreferrer"
                             target="_blank"
                             className="cta-btn text-color-project"
-                            href="https://github.com/PeterRibs/pythonvideoanalysis"
+                            href="https://github.com/PeterRibs/probability_calculator"
                             >
                             Source Code
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 1 - Py--> */}
+                    {/* <!-- /END Project 4 - Py--> */}
 
-                    {/* <!-- Project 2 - Py--> */}
+                    {/* <!-- Project 5 - Py--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
-                            <h3 className="project-wrapper__text-title">BlackJack</h3>
+                            <h3 className="project-wrapper__text-title">Budget App</h3>
                             <div>
                                 <img alt="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://github.com/PeterRibs/blackjack_game">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/budget_app">
                                     <div className="imgProj">
                                         <img
-                                            href="https://github.com/PeterRibs/blackjack_game"
+                                            href="https://github.com/PeterRibs/budget_app"
                                             alt="Project_Image"
                                             className="img-fluid"
-                                            src={blackjack_py}/>
+                                            src={budget}/>
                                     </div>
                                 </a>
                             </div>
                             <div>
                             <p className="mb-4">
-                                Welcome to BlackJack! Get as close to 21 as you can without lost your chips! Dealer hits until she reaches 17. Aces count as 1 or 11. Card output goes a letter followed by number of the face notation! Let's have fun!
+                                Shall we control our spending? Or at least know how we spend our money? =D
                             </p>
                             </div>
                             <a
                             rel="noreferrer"
                             target="_blank"
                             className="cta-btn text-color-project"
-                            href="https://github.com/PeterRibs/blackjack_game"
+                            href="https://github.com/PeterRibs/budget_app"
                             >
                             Source Code
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 2 - Py --> */}
+                    {/* <!-- /END Project 5 - Py --> */}
 
-                    {/* <!-- Project 3 - Py--> */}
+                    {/* <!-- Project 6 - Py--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
-                            <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
+                            <h3 className="project-wrapper__text-title">Arithmetic Arranger</h3>
                             <div>
                                 <img alt="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://github.com/PeterRibs/tictactoe_python">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/arithmetic_arranger">
                                     <div className="imgProj">
                                         <img
-                                            href="https://github.com/PeterRibs/tictactoe_python"
+                                            href="https://github.com/PeterRibs/arithmetic_arranger"
                                             alt="Project_Image"
                                             className="img-fluid"
-                                            src={tictactoe_py}/>
+                                            src={arithmetic}/>
                                     </div>
                                 </a>
                             </div>
                             <div>
                             <p className="mb-4">
-                                A simple Tic Tac Toe game! But now, in PYTHOOOON! Let's have fun again!
+                                Students in primary school often arrange arithmetic problems vertically to make them easier to solve.
                             </p>
                             </div>
                             <a
                             rel="noreferrer"
                             target="_blank"
                             className="cta-btn text-color-project"
-                            href="https://github.com/PeterRibs/tictactoe_python"
+                            href="https://github.com/PeterRibs/arithmetic_arranger"
                             >
                             Source Code
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 3 - Py --> */}
+                    {/* <!-- /END Project 6 - Py --> */}
 
                     {/* <!-- Project 1--> */}
                     <div className="card">
