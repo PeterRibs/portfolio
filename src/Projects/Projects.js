@@ -18,6 +18,8 @@ import javascript from '../Figs/javascript.png';
 import probability from '../Figs/probability.png';
 import arithmetic from '../Figs/arithmetic.png';
 import budget from '../Figs/budget.png';
+import polygon from '../Figs/polygon.png';
+import timecalc from '../Figs/timecalc.png';
 import react from '../Figs/react.png';
 
 
@@ -237,6 +239,76 @@ function Project () {
                         </div>
                     </div>
                     {/* <!-- /END Project 6 - Py --> */}
+
+                    {/* <!-- Project 7 - Py--> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Polygon Area Calculator</h3>
+                            <div>
+                                <img alt="Python" src={python} className='imgAbout'></img>
+                            </div>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/polygon_area_calculator">
+                                    <div className="imgProj">
+                                        <img
+                                            href="https://github.com/PeterRibs/polygon_area_calculator"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={polygon}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Project Polygon Area Calculator - FreeCodeCamp: 
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/polygon_area_calculator"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!-- /END Project 7 - Py --> */}
+
+                    {/* <!-- Project 8 - Py--> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Time Calculator</h3>
+                            <div>
+                                <img alt="Python" src={python} className='imgAbout'></img>
+                            </div>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://github.com/PeterRibs/time_calculator">
+                                    <div className="imgProj">
+                                        <img
+                                            href="https://github.com/PeterRibs/time_calculator"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={timecalc}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Project Time Calculator - FreeCodeCamp: 
+                            </p>
+                            </div>
+                            <a
+                            rel="noreferrer"
+                            target="_blank"
+                            className="cta-btn text-color-project"
+                            href="https://github.com/PeterRibs/time_calculator"
+                            >
+                            Source Code
+                            </a>
+                        </div>
+                    </div>
+                    {/* <!-- /END Project 8 - Py --> */}
 
                     {/* <!-- Project 1--> */}
                     <div className="card">
