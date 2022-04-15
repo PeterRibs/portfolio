@@ -188,7 +188,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                Shall we control our spending? Or at least know how we spend our money? =D
+                                Project Budget App - FreeCodeCamp: Shall we control our spending? Or at least know how we spend our money? =D
                             </p>
                             </div>
                             <a
@@ -223,7 +223,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                Students in primary school often arrange arithmetic problems vertically to make them easier to solve.
+                                Project Arithmetic Arranger - FreeCodeCamp: Students in primary school often arrange arithmetic problems vertically to make them easier to solve.
                             </p>
                             </div>
                             <a
