@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f69c4108.css",
-    "main.js": "/portfolio/static/js/main.6128cda0.js",
+    "main.js": "/portfolio/static/js/main.56aa57a9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RoboFriends.png": "/portfolio/static/media/RoboFriends.168511988fca57269bc1.png",
     "static/media/python_analysis.png": "/portfolio/static/media/python_analysis.42a0d2f9d10866f8dc7c.png",
@@ -26,11 +26,11 @@
     "static/media/probability.png": "/portfolio/static/media/probability.66dffd5225b18e802fb7.png",
     "index.html": "/portfolio/index.html",
     "main.f69c4108.css.map": "/portfolio/static/css/main.f69c4108.css.map",
-    "main.6128cda0.js.map": "/portfolio/static/js/main.6128cda0.js.map",
+    "main.56aa57a9.js.map": "/portfolio/static/js/main.56aa57a9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f69c4108.css",
-    "static/js/main.6128cda0.js"
+    "static/js/main.56aa57a9.js"
   ]
 }
