@@ -260,7 +260,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                Project Polygon Area Calculator - FreeCodeCamp: 
+                                Project Polygon Area Calculator - FreeCodeCamp: Let's build a polygon, which can be a square or a rectangle! With that, we can calculate its area, perimeter and show its figure!
                             </p>
                             </div>
                             <a
@@ -295,7 +295,7 @@ function Project () {
                             </div>
                             <div>
                             <p className="mb-4">
-                                Project Time Calculator - FreeCodeCamp: 
+                                Project Time Calculator - FreeCodeCamp: How much time has passed? This app makes it easy to know how much time has passed since a chosen date and the elapsed time!
                             </p>
                             </div>
                             <a
