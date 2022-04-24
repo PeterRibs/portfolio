@@ -14,6 +14,9 @@ import nodejs from '../Figs/nodejs.png';
 import postgresql from '../Figs/Postgresql.png';
 import postman from '../Figs/postman.png';
 import github from '../Figs/github.png';
+import mongoDB from '../Figs/mongoDB.png';
+import git from '../Figs/git.png';
+import docker from '../Figs/docker.png';
 
 function About (){
     return (
@@ -28,14 +31,17 @@ function About (){
                             <img alt="Python" src={python} className='imgAbout'></img>
                             <img alt="R" src={r} className='imgAbout'></img>
                             <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
+                            <img alt="MongoDB" src={mongoDB} className='imgAbout'></img>
+                            <img alt="Git" src={git} className='imgAbout'></img>
+                            <img alt="GitHub" src={github} className='imgAbout'></img>
+                            <img alt="Docker" src={docker} className='imgAbout'></img>
                             <img alt="HTML5" src={html} className='imgAbout'></img>
                             <img alt="CSS3" src={css} className='imgAbout'></img>
                             <img alt="Javascript" src={javascript} className='imgAbout'></img>
                             <img alt="REACT.js" src={react} className='imgAbout'></img>
+                            <img alt="Node.js" src={nodejs} className='imgAbout'></img>
                             <img alt="Web APIs" src={api} className='imgAbout'></img>
                             <img alt="NPM" src={npm} className='imgAbout'></img>
-                            <img alt="GitHub" src={github} className='imgAbout'></img>
-                            <img alt="Node.js" src={nodejs} className='imgAbout'></img>
                             <img alt="Postman" src={postman} className='imgAbout'></img>
                             <img alt="Julia Programming Language" src={julia} className='imgAbout'></img>
                         </div>
@@ -52,7 +58,7 @@ function About (){
                     </div>
                     <div className="about-wrapper__info">
                         <p className="about-wrapper__info-text">
-                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, In order to improve my programming skills, I also started studying HTML, CSS and Javascript.
+                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. In addition, I worked with languages like R, Python and Julia. After this, in order to improve my programming skills, I studied HTML, CSS and Javascript. In addition to deepening my analytical knowledge in Data Science, studying Big Data and Machine Learning.
                         </p>
                     </div>
                 </div>
