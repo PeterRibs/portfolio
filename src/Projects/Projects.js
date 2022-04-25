@@ -21,6 +21,9 @@ import budget from '../Figs/budget.png';
 import polygon from '../Figs/polygon.png';
 import timecalc from '../Figs/timecalc.png';
 import react from '../Figs/react.png';
+import docker from '../Figs/docker.png';
+import postgresql from '../Figs/Postgresql.png';
+import dataTool from '../Figs/dataTool.png';
 
 
 function Project () {
@@ -30,7 +33,44 @@ function Project () {
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
 
-                {/* <!-- Project 1 - Py--> */}
+                {/* <!-- Project 9 - Py--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Data Management Tool</h3>
+                        <div>
+                            <img alt="Python" src={python} className='imgAbout'></img>
+                            <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
+                            <img alt="Docker" src={docker} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/data_management_tool">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/data_management_tool"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={dataTool}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            Data manipulation service integrated into a PostgreSQL relational database. For this, the app reads and manipulate the data in order to produce a table with a conventional separator between the columns, only the numeric digits of the CPFs and CNPJs and using '.' instead ',' to separate decimal. Validate CPF and CNPJ producing two different tables with the identifier and the validation.
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/data_management_tool"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 9 - Py--> */}
+
+                {/* <!-- Project 8 - Py--> */}
                 <div className="card">
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">Video Analysis</h3>
@@ -63,9 +103,9 @@ function Project () {
                         </a>
                     </div>
                 </div>
-                {/* <!-- /END Project 1 - Py--> */}
+                {/* <!-- /END Project 8 - Py--> */}
 
-                {/* <!-- Project 2 - Py--> */}
+                {/* <!-- Project 7 - Py--> */}
                 <div className="card">
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">BlackJack</h3>
@@ -98,9 +138,9 @@ function Project () {
                         </a>
                     </div>
                 </div>
-                {/* <!-- /END Project 2 - Py --> */}
+                {/* <!-- /END Project 7 - Py --> */}
 
-                {/* <!-- Project 3 - Py--> */}
+                {/* <!-- Project 6 - Py--> */}
                 <div className="card">
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
@@ -133,9 +173,9 @@ function Project () {
                         </a>
                     </div>
                 </div>
-                {/* <!-- /END Project 3 - Py --> */}
+                {/* <!-- /END Project 6 - Py --> */}
 
-                {/* <!-- Project 4 - Py--> */}
+                {/* <!-- Project 5 - Py--> */}
                 <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Probability Calculator</h3>
@@ -168,9 +208,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 4 - Py--> */}
+                    {/* <!-- /END Project 5 - Py--> */}
 
-                    {/* <!-- Project 5 - Py--> */}
+                    {/* <!-- Project 4 - Py--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Budget App</h3>
@@ -203,9 +243,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 5 - Py --> */}
+                    {/* <!-- /END Project 4 - Py --> */}
 
-                    {/* <!-- Project 6 - Py--> */}
+                    {/* <!-- Project 3 - Py--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Arithmetic Arranger</h3>
@@ -238,9 +278,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 6 - Py --> */}
+                    {/* <!-- /END Project 3 - Py --> */}
 
-                    {/* <!-- Project 7 - Py--> */}
+                    {/* <!-- Project 2 - Py--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Polygon Area Calculator</h3>
@@ -273,9 +313,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 7 - Py --> */}
+                    {/* <!-- /END Project 2 - Py --> */}
 
-                    {/* <!-- Project 8 - Py--> */}
+                    {/* <!-- Project 1 - Py--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Time Calculator</h3>
@@ -308,9 +348,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 8 - Py --> */}
+                    {/* <!-- /END Project 1 - Py --> */}
 
-                    {/* <!-- Project 1--> */}
+                    {/* <!-- Project 7--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">RoboFriends</h3>
@@ -354,9 +394,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 1 --> */}
+                    {/* <!-- /END Project 7 --> */}
 
-                    {/* <!-- Project 2--> */}
+                    {/* <!-- Project 6--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Background Generator</h3>
@@ -399,9 +439,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 2--> */}
+                    {/* <!-- /END Project 6--> */}
 
-                    {/* <!-- Project 3--> */}
+                    {/* <!-- Project 5--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">R2-D2</h3>
@@ -443,7 +483,7 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 3 --> */}
+                    {/* <!-- /END Project 5 --> */}
 
                     {/* <!-- Project 4--> */}
                     <div className="card">
@@ -490,7 +530,7 @@ function Project () {
                     </div>
                     {/* <!-- /END Project 4 --> */}
 
-                    {/*<!--project5-->*/}
+                    {/*<!--project 3-->*/}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
@@ -533,9 +573,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!--End project5--> */}
+                    {/* <!--End project 3--> */}
 
-                    {/* <!-- Project 6--> */}
+                    {/* <!-- Project 2--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">ToDoList</h3>
@@ -578,9 +618,9 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 6 --> */}
+                    {/* <!-- /END Project 2 --> */}
 
-                    {/* <!-- Project 7--> */}
+                    {/* <!-- Project 1--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Game</h3>
@@ -623,7 +663,7 @@ function Project () {
                             </a>
                         </div>
                     </div>
-                    {/* <!-- /END Project 7 --> */}
+                    {/* <!-- /END Project 1 --> */}
 
                 </div>
             </div>
