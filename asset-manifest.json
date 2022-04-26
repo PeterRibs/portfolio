@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63d09112.css",
-    "main.js": "/portfolio/static/js/main.81da0263.js",
+    "main.js": "/portfolio/static/js/main.322cb994.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RoboFriends.png": "/portfolio/static/media/RoboFriends.168511988fca57269bc1.png",
     "static/media/python_analysis.png": "/portfolio/static/media/python_analysis.42a0d2f9d10866f8dc7c.png",
     "static/media/BGG.png": "/portfolio/static/media/BGG.672553b57f64c982d824.png",
     "static/media/python.png": "/portfolio/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/cinema.png": "/portfolio/static/media/cinema.b11992b00005189eacf0.png",
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.9f8f5cd98ce5726b002f.png",
+    "static/media/sqlite.png": "/portfolio/static/media/sqlite.f05a612d02f52a49bcfe.png",
     "static/media/mongoDB.png": "/portfolio/static/media/mongoDB.55156a2d1985d5161952.png",
     "static/media/R2D2.png": "/portfolio/static/media/R2D2.9fa562d80483cffdee37.png",
     "static/media/r.png": "/portfolio/static/media/r.f233fd44c2719d81f6f4.png",
@@ -31,11 +33,11 @@
     "static/media/probability.png": "/portfolio/static/media/probability.66dffd5225b18e802fb7.png",
     "index.html": "/portfolio/index.html",
     "main.63d09112.css.map": "/portfolio/static/css/main.63d09112.css.map",
-    "main.81da0263.js.map": "/portfolio/static/js/main.81da0263.js.map",
+    "main.322cb994.js.map": "/portfolio/static/js/main.322cb994.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63d09112.css",
-    "static/js/main.81da0263.js"
+    "static/js/main.322cb994.js"
   ]
 }
