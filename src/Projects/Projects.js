@@ -43,10 +43,10 @@ function Project () {
                             <img alt="SQLite" title="SQLite" src={sqlite} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
-                            <a rel="noreferrer" href="https://github.com/PeterRibs/">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/film_exploratoryanalysis">
                                 <div className="imgProj">
                                     <img
-                                        href="https://github.com/PeterRibs/"
+                                        href="https://github.com/PeterRibs/film_exploratoryanalysis"
                                         alt="Project_Image"
                                         className="img-fluid"
                                         src={cinema}/>
@@ -62,7 +62,7 @@ function Project () {
                         rel="noreferrer"
                         target="_blank"
                         className="cta-btn text-color-project"
-                        href="https://github.com/PeterRibs/"
+                        href="https://github.com/PeterRibs/film_exploratoryanalysis"
                         >
                         Source Code
                         </a>

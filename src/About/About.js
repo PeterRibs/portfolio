@@ -60,7 +60,7 @@ function About (){
                     </div>
                     <div className="about-wrapper__info">
                         <p className="about-wrapper__info-text">
-                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. During this period, I worked with languages like R, Python and Julia. After this, in order to improve my programming skills, I studied HTML, CSS and Javascript. In addition, to upgrade my analytical knowledge in Data Science, I start to study Big Data and Machine Learning.
+                            Graduated in Biology from the University of Brasília (UnB), Master's and Doctorate from the Federal University of Paraná (UFPR). During the degrees I learned how to deal with people, work in a team, write and manage projects. During this period, I worked with languages like R, Python and Julia. After this, in order to improve my programming skills, I studied HTML, CSS and Javascript. In addition, to upgrade my analytical knowledge in Data Science, I started to study Big Data and Machine Learning.
                         </p>
                     </div>
                 </div>
