@@ -24,7 +24,8 @@ import react from '../Figs/react.png';
 import docker from '../Figs/docker.png';
 import postgresql from '../Figs/Postgresql.png';
 import dataTool from '../Figs/dataTool.png';
-
+import sqlite from '../Figs/sqlite.png';
+import cinema from '../Figs/cinema.png';
 
 function Project () {
     return (
@@ -33,14 +34,50 @@ function Project () {
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
 
+                {/* <!-- Project 10 - Py--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Exploratory analysis: Film data</h3>
+                        <div>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                            <img alt="SQLite" title="SQLite" src={sqlite} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={cinema}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            Exploratory analysis of film data integrated into a SQLite relational database. In Progress...
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 10 - Py--> */}
+
                 {/* <!-- Project 9 - Py--> */}
                 <div className="card">
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">Data Management Tool</h3>
                         <div>
-                            <img alt="Python" src={python} className='imgAbout'></img>
-                            <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
-                            <img alt="Docker" src={docker} className='imgAbout'></img>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                            <img alt="PostgreSQL" title="PostgreSQL" src={postgresql} className='imgAbout'></img>
+                            <img alt="Docker" title="Docker" src={docker} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
                             <a rel="noreferrer" href="https://github.com/PeterRibs/data_management_tool">
@@ -75,7 +112,7 @@ function Project () {
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">Video Analysis</h3>
                         <div>
-                            <img alt="Python" src={python} className='imgAbout'></img>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
                             <a rel="noreferrer" href="https://github.com/PeterRibs/pythonvideoanalysis">
@@ -110,7 +147,7 @@ function Project () {
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">BlackJack</h3>
                         <div>
-                            <img alt="Python" src={python} className='imgAbout'></img>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
                             <a rel="noreferrer" href="https://github.com/PeterRibs/blackjack_game">
@@ -145,7 +182,7 @@ function Project () {
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
                         <div>
-                            <img alt="Python" src={python} className='imgAbout'></img>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
                             <a rel="noreferrer" href="https://github.com/PeterRibs/tictactoe_python">
@@ -180,7 +217,7 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Probability Calculator</h3>
                             <div>
-                                <img alt="Python" src={python} className='imgAbout'></img>
+                                <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://github.com/PeterRibs/probability_calculator">
@@ -215,7 +252,7 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Budget App</h3>
                             <div>
-                                <img alt="Python" src={python} className='imgAbout'></img>
+                                <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://github.com/PeterRibs/budget_app">
@@ -250,7 +287,7 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Arithmetic Arranger</h3>
                             <div>
-                                <img alt="Python" src={python} className='imgAbout'></img>
+                                <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://github.com/PeterRibs/arithmetic_arranger">
@@ -285,7 +322,7 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Polygon Area Calculator</h3>
                             <div>
-                                <img alt="Python" src={python} className='imgAbout'></img>
+                                <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://github.com/PeterRibs/polygon_area_calculator">
@@ -320,7 +357,7 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Time Calculator</h3>
                             <div>
-                                <img alt="Python" src={python} className='imgAbout'></img>
+                                <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://github.com/PeterRibs/time_calculator">
@@ -355,10 +392,10 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">RoboFriends</h3>
                             <div>
-                                <img alt="REACT.js" src={react} className='imgAbout'></img>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
-                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                                <img alt="ReactJS" title="Python" src={react} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" title="Javascript" src={javascript} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/appRoboFriends/">
@@ -401,9 +438,9 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Background Generator</h3>
                             <div>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
-                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" title="Javascript" src={javascript} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/background-generator/" target="_blank">
@@ -446,8 +483,8 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">R2-D2</h3>
                             <div>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/r2d2.github.io/" target="_blank">
@@ -490,9 +527,9 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Calculator</h3>
                             <div>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
-                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" title="Javascript" src={javascript} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/simpleCalculator/" target="_blank">
@@ -535,9 +572,9 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Tic Tac Toe</h3>
                             <div>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
-                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" title="Javascript" src={javascript} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
@@ -580,9 +617,9 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">ToDoList</h3>
                             <div>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
-                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" title="Javascript" src={javascript} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/ToDoList/" target="_blank">
@@ -625,9 +662,9 @@ function Project () {
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Simple Game</h3>
                             <div>
-                                <img alt="HTML5" src={html} className='imgAbout'></img>
-                                <img alt="CSS3" src={css} className='imgAbout'></img>
-                                <img alt="Javascript" src={javascript} className='imgAbout'></img>
+                                <img alt="HTML5" title="HTML5" src={html} className='imgAbout'></img>
+                                <img alt="CSS3" title="CSS3" src={css} className='imgAbout'></img>
+                                <img alt="Javascript" title="Javascript" src={javascript} className='imgAbout'></img>
                             </div>
                             <div className="project-wrapper__image">
                                 <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">

@@ -17,6 +17,7 @@ import github from '../Figs/github.png';
 import mongoDB from '../Figs/mongoDB.png';
 import git from '../Figs/git.png';
 import docker from '../Figs/docker.png';
+import sqlite from '../Figs/sqlite.png';
 
 function About (){
     return (
@@ -28,22 +29,23 @@ function About (){
                         <p className="title-about">Skills</p>
                         <hr></hr>
                         <div className="list-skills">
-                            <img alt="Python" src={python} className='imgAbout'></img>
-                            <img alt="R" src={r} className='imgAbout'></img>
-                            <img alt="PostgreSQL" src={postgresql} className='imgAbout'></img>
-                            <img alt="MongoDB" src={mongoDB} className='imgAbout'></img>
-                            <img alt="Git" src={git} className='imgAbout'></img>
-                            <img alt="GitHub" src={github} className='imgAbout'></img>
-                            <img alt="Docker" src={docker} className='imgAbout'></img>
-                            <img alt="HTML5" src={html} className='imgAbout'></img>
-                            <img alt="CSS3" src={css} className='imgAbout'></img>
-                            <img alt="Javascript" src={javascript} className='imgAbout'></img>
-                            <img alt="REACT.js" src={react} className='imgAbout'></img>
-                            <img alt="Node.js" src={nodejs} className='imgAbout'></img>
-                            <img alt="Web APIs" src={api} className='imgAbout'></img>
-                            <img alt="NPM" src={npm} className='imgAbout'></img>
-                            <img alt="Postman" src={postman} className='imgAbout'></img>
-                            <img alt="Julia Programming Language" src={julia} className='imgAbout'></img>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                            <img alt="R" title="R" src={r} className='imgAbout'></img>
+                            <img alt="SQLite" title="SQLite"src={sqlite} className='imgAbout'></img>
+                            <img alt="PostgreSQL" title="PostgreSQL" src={postgresql} className='imgAbout'></img>
+                            <img alt="MongoDB" title="MongoDB"src={mongoDB} className='imgAbout'></img>
+                            <img alt="Git" title="Git" src={git} className='imgAbout'></img>
+                            <img alt="GitHub" title="GitHub"  src={github} className='imgAbout'></img>
+                            <img alt="Docker" title="Docker"  src={docker} className='imgAbout'></img>
+                            <img alt="HTML5" title="HTML5"  src={html} className='imgAbout'></img>
+                            <img alt="CSS3" title="CSS3"  src={css} className='imgAbout'></img>
+                            <img alt="Javascript" title="Javascript"  src={javascript} className='imgAbout'></img>
+                            <img alt="ReactJS" title="ReactJS"  src={react} className='imgAbout'></img>
+                            <img alt="NodeJS" title="NodeJS"  src={nodejs} className='imgAbout'></img>
+                            <img alt="Web APIs" title="Web APIs"  src={api} className='imgAbout'></img>
+                            <img alt="NPM" title="NPM"  src={npm} className='imgAbout'></img>
+                            <img alt="Postman" title="Postman"  src={postman} className='imgAbout'></img>
+                            <img alt="Julia Programming Language" title="Julia Programming Language"  src={julia} className='imgAbout'></img>
                         </div>
                         <span className="d-flex mt-3">
                             <a
