@@ -61,6 +61,14 @@ function Project () {
                         <a
                         rel="noreferrer"
                         target="_blank"
+                        className="cta-btn cta-btn--hero"
+                        href="https://peterribs.github.io/film_exploratoryanalysis/"
+                        >
+                        See Graphs
+                        </a>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
                         className="cta-btn text-color-project"
                         href="https://github.com/PeterRibs/film_exploratoryanalysis"
                         >
