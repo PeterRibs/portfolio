@@ -26,6 +26,7 @@ import postgresql from '../Figs/Postgresql.png';
 import dataTool from '../Figs/dataTool.png';
 import sqlite from '../Figs/sqlite.png';
 import cinema from '../Figs/cinema.png';
+import imdb from '../Figs/IMDb.png' 
 
 function Project () {
     return (
@@ -41,6 +42,7 @@ function Project () {
                         <div>
                             <img alt="Python" title="Python" src={python} className='imgAbout'></img>
                             <img alt="SQLite" title="SQLite" src={sqlite} className='imgAbout'></img>
+                            <img alt="IMDb" title="SQLite" src={imdb} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
                             <a rel="noreferrer" href="https://github.com/PeterRibs/film_exploratoryanalysis">
@@ -55,7 +57,7 @@ function Project () {
                         </div>
                         <div>
                         <p className="mb-4">
-                            Exploratory analysis of film data integrated into a SQLite relational database. In Progress...
+                            Exploratory analysis of film data integrated into a SQLite relational database. Some questions were answered and for that, graphs and tables were produced. To view these productions, click on "See Graphs".
                         </p>
                         </div>
                         <a
