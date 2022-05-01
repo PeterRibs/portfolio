@@ -18,6 +18,7 @@ import mongoDB from '../Figs/mongoDB.png';
 import git from '../Figs/git.png';
 import docker from '../Figs/docker.png';
 import sqlite from '../Figs/sqlite.png';
+import jupyter from '../Figs/jupyter.png';
 
 function About (){
     return (
@@ -30,6 +31,7 @@ function About (){
                         <hr></hr>
                         <div className="list-skills">
                             <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                            <img alt="Jupyter Notebook" title="Jupyter Notebook"  src={jupyter} className='imgAbout'></img>
                             <img alt="R" title="R" src={r} className='imgAbout'></img>
                             <img alt="SQLite" title="SQLite"src={sqlite} className='imgAbout'></img>
                             <img alt="PostgreSQL" title="PostgreSQL" src={postgresql} className='imgAbout'></img>
