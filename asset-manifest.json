@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63d09112.css",
-    "main.js": "/portfolio/static/js/main.8f3042f2.js",
+    "main.js": "/portfolio/static/js/main.c7d8ee51.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RoboFriends.png": "/portfolio/static/media/RoboFriends.168511988fca57269bc1.png",
     "static/media/IMDb.png": "/portfolio/static/media/IMDb.3ef7d49dfc5c2f564b0b.png",
@@ -22,6 +22,7 @@
     "static/media/timecalc.png": "/portfolio/static/media/timecalc.0f776022c99172708f5a.png",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.ecfbf38df41fc269ffe9.png",
     "static/media/api.png": "/portfolio/static/media/api.574fde6f92b9bcab978a.png",
+    "static/media/housePrice.png": "/portfolio/static/media/housePrice.db2d2b9c1074276cfd5f.png",
     "static/media/budget.png": "/portfolio/static/media/budget.d7dc56cad61f9c01faaa.png",
     "static/media/polygon.png": "/portfolio/static/media/polygon.9e296afc08bc5b7640ef.png",
     "static/media/html.png": "/portfolio/static/media/html.85611a307313d8fb45d3.png",
@@ -35,11 +36,11 @@
     "static/media/probability.png": "/portfolio/static/media/probability.66dffd5225b18e802fb7.png",
     "index.html": "/portfolio/index.html",
     "main.63d09112.css.map": "/portfolio/static/css/main.63d09112.css.map",
-    "main.8f3042f2.js.map": "/portfolio/static/js/main.8f3042f2.js.map",
+    "main.c7d8ee51.js.map": "/portfolio/static/js/main.c7d8ee51.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63d09112.css",
-    "static/js/main.8f3042f2.js"
+    "static/js/main.c7d8ee51.js"
   ]
 }
