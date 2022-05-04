@@ -27,6 +27,7 @@ import dataTool from '../Figs/dataTool.png';
 import sqlite from '../Figs/sqlite.png';
 import cinema from '../Figs/cinema.png';
 import imdb from '../Figs/IMDb.png' 
+import housePrice from '../Figs/housePrice.png' 
 
 function Project () {
     return (
@@ -34,6 +35,49 @@ function Project () {
             <div className="container">
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
+
+                 {/* <!-- Project 11 - Py--> */}
+                 <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">House Price Model </h3>
+                        <div>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/house_price_model">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/house_price_model"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={housePrice}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            IN PROGRESS... Is it possible to predict the value of the property from the number of rooms? We can answer this question using a real data from Boston House Prices Dataset.
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn cta-btn--hero"
+                        href="https://peterribs.github.io/house_price_model/"
+                        >
+                        See Graphs
+                        </a>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/house_price_model"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 11 - Py--> */}
 
                 {/* <!-- Project 10 - Py--> */}
                 <div className="card">
