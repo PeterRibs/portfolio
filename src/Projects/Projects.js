@@ -56,7 +56,7 @@ function Project () {
                         </div>
                         <div>
                         <p className="mb-4">
-                            IN PROGRESS... Is it possible to predict the value of the property from the number of rooms? We can answer this question using a real data from Boston House Prices Dataset.
+                            IN PROGRESS... What are the property prices in relation to the number of rooms? We can answer this question using a real data from Boston House Prices Dataset.
                         </p>
                         </div>
                         <a
