@@ -28,6 +28,7 @@ import sqlite from '../Figs/sqlite.png';
 import cinema from '../Figs/cinema.png';
 import imdb from '../Figs/IMDb.png' 
 import housePrice from '../Figs/housePrice.png' 
+import diabetes from '../Figs/diabetes.png' 
 
 function Project () {
     return (
@@ -36,8 +37,51 @@ function Project () {
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
 
-                 {/* <!-- Project 11 - Py--> */}
-                 <div className="card">
+                {/* <!-- Project 12 - Py--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Diabetes occurrence model</h3>
+                        <div>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/diabetes_occurrence">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/diabetes_occurrence"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={diabetes}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            Can we predict with an accuracy of 75% whether a person will have diabetes? We can answer this question using a real data from Machine Learning Repository from UCI / Kaggle.
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn cta-btn--hero"
+                        href="https://peterribs.github.io/diabetes_occurrence/"
+                        >
+                        See Graphs
+                        </a>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/diabetes_occurrence"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 12 - Py--> */}
+
+                {/* <!-- Project 11 - Py--> */}
+                <div className="card">
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">House Price Model </h3>
                         <div>
@@ -56,7 +100,7 @@ function Project () {
                         </div>
                         <div>
                         <p className="mb-4">
-                            IN PROGRESS... What are the property prices in relation to the number of rooms? We can answer this question using a real data from Boston House Prices Dataset.
+                            What are the property prices in relation to the number of rooms? We can answer this question using a real data from Boston House Prices Dataset. We can also visualize the difference between the training and validation data to see the model training error.
                         </p>
                         </div>
                         <a
