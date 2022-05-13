@@ -218,10 +218,10 @@ function Project () {
                             <img alt="R" title="R" src={r} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
-                            <a rel="noreferrer" href="https://github.com/PeterRibs/julia_recurrence_analysis">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/r_analysis">
                                 <div className="imgProj">
                                     <img
-                                        href="https://github.com/PeterRibs/julia_recurrence_analysis"
+                                        href="https://github.com/PeterRibs/r_analysis"
                                         alt="Project_Image"
                                         className="img-fluid"
                                         src={r_analysis}/>
@@ -237,7 +237,7 @@ function Project () {
                         rel="noreferrer"
                         target="_blank"
                         className="cta-btn text-color-project"
-                        href="https://github.com/PeterRibs/julia_recurrence_analysis"
+                        href="https://github.com/PeterRibs/r_analysis"
                         >
                         Source Code
                         </a>
