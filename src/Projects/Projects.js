@@ -28,7 +28,12 @@ import sqlite from '../Figs/sqlite.png';
 import cinema from '../Figs/cinema.png';
 import imdb from '../Figs/IMDb.png' 
 import housePrice from '../Figs/housePrice.png' 
-import diabetes from '../Figs/diabetes.png' 
+import diabetes from '../Figs/diabetes.png'
+import julia from '../Figs/julia.png';
+import jupyter from '../Figs/jupyter.png';
+import recurrece from '../Figs/recurrence.png';
+import r from '../Figs/r.png';
+import r_analysis from '../Figs/r_analysis.png';
 
 function Project () {
     return (
@@ -205,12 +210,84 @@ function Project () {
                 </div>
                 {/* <!-- /END Project 9 - Py--> */}
 
+                {/* <!-- Project 1 - R--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Display vs Success</h3>
+                        <div>
+                            <img alt="R" title="R" src={r} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/julia_recurrence_analysis">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/julia_recurrence_analysis"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={r_analysis}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            In the field, I recorded the dance of a specie named Swallow-tailed Manakin. Then, I tracked the videos using Python, I got the time series, and performed the Recurrence analysis the Julia programming language. After that, I tested whether the parameters extracted in the recurrence analysis had any relationship with female visitation, number of males performing the display and mating rate.
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/julia_recurrence_analysis"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 1 - R--> */}
+
+                {/* <!-- Project 1 - Julia--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Recurrence Analysis</h3>
+                        <div>
+                            <img alt="Julia" title="Julia" src={julia} className='imgAbout'></img>
+                            <img alt="Jupyter Notebook" title="Jupyter Notebook" src={jupyter} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/julia_recurrence_analysis">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/julia_recurrence_analysis"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={recurrece}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            In the field, I recorded the dance of a specie named Swallow-tailed Manakin. After tracking the videos using Python and obtaining the time series, I used the Julia programming language to perform the Recurrence analysis. Its objective is to perceive patterns in a time series creating a Recurrence Plot where we can extract some measurements.
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/julia_recurrence_analysis"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 1 - Julia--> */}
+
                 {/* <!-- Project 8 - Py--> */}
                 <div className="card">
                     <div className="project-wrapper__text">
                         <h3 className="project-wrapper__text-title">Video Analysis</h3>
                         <div>
                             <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                            <img alt="Jupyter Notebook" title="Jupyter Notebook" src={jupyter} className='imgAbout'></img>
                         </div>
                         <div className="project-wrapper__image">
                             <a rel="noreferrer" href="https://github.com/PeterRibs/pythonvideoanalysis">
