@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.63d09112.css",
-    "main.js": "/portfolio/static/js/main.9eaeb90e.js",
+    "main.js": "/portfolio/static/js/main.f3008e58.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/RoboFriends.png": "/portfolio/static/media/RoboFriends.168511988fca57269bc1.png",
     "static/media/IMDb.png": "/portfolio/static/media/IMDb.3ef7d49dfc5c2f564b0b.png",
@@ -19,6 +19,7 @@
     "static/media/todolist.png": "/portfolio/static/media/todolist.8c908474719065c0905c.png",
     "static/media/css.png": "/portfolio/static/media/css.9f33c557b92e4e2e1cc8.png",
     "static/media/dataTool.png": "/portfolio/static/media/dataTool.12507af28dc6eb301523.png",
+    "static/media/recurrence.png": "/portfolio/static/media/recurrence.ef45740a6367ae5f92a0.png",
     "static/media/diabetes.png": "/portfolio/static/media/diabetes.0e5ab3a773bb2686e423.png",
     "static/media/timecalc.png": "/portfolio/static/media/timecalc.0f776022c99172708f5a.png",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.ecfbf38df41fc269ffe9.png",
@@ -27,6 +28,7 @@
     "static/media/budget.png": "/portfolio/static/media/budget.d7dc56cad61f9c01faaa.png",
     "static/media/polygon.png": "/portfolio/static/media/polygon.9e296afc08bc5b7640ef.png",
     "static/media/html.png": "/portfolio/static/media/html.85611a307313d8fb45d3.png",
+    "static/media/r_analysis.png": "/portfolio/static/media/r_analysis.66377ae332ef3fe4809d.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.aebea2db8bd1b1b99108.png",
     "static/media/simple game.png": "/portfolio/static/media/simple game.8f31fd0ca8e6006485d5.png",
     "static/media/calculadora.png": "/portfolio/static/media/calculadora.15136d39012554d00b6a.png",
@@ -37,11 +39,11 @@
     "static/media/probability.png": "/portfolio/static/media/probability.66dffd5225b18e802fb7.png",
     "index.html": "/portfolio/index.html",
     "main.63d09112.css.map": "/portfolio/static/css/main.63d09112.css.map",
-    "main.9eaeb90e.js.map": "/portfolio/static/js/main.9eaeb90e.js.map",
+    "main.f3008e58.js.map": "/portfolio/static/js/main.f3008e58.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63d09112.css",
-    "static/js/main.9eaeb90e.js"
+    "static/js/main.f3008e58.js"
   ]
 }
