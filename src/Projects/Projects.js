@@ -236,6 +236,14 @@ function Project () {
                         <a
                         rel="noreferrer"
                         target="_blank"
+                        className="cta-btn cta-btn--hero"
+                        href="https://peterribs.github.io/r_analysis/"
+                        >
+                        See Graphs
+                        </a>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
                         className="cta-btn text-color-project"
                         href="https://github.com/PeterRibs/r_analysis"
                         >
