@@ -34,6 +34,8 @@ import jupyter from '../Figs/jupyter.png';
 import recurrece from '../Figs/recurrence.png';
 import r from '../Figs/r.png';
 import r_analysis from '../Figs/r_analysis.png';
+import colab from '../Figs/colab.png';
+import plants from '../Figs/plants.png';
 
 function Project () {
     return (
@@ -41,6 +43,51 @@ function Project () {
             <div className="container">
                 <h2 className="section-title dark-blue-text">Projects</h2>
                 <div className="project-wrapper"> 
+
+                {/* <!-- Project 13 - Py--> */}
+                <div className="card">
+                    <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">Plants Recognition</h3>
+                        <div>
+                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                            <img alt="Jupyter Notebook" title="Jupyter Notebook"  src={jupyter} className='imgAbout'></img>
+                            <img alt="GoogleColab" title="Google Colab" src={colab} className='imgAbout'></img>
+                        </div>
+                        <div className="project-wrapper__image">
+                            <a rel="noreferrer" href="https://github.com/PeterRibs/">
+                                <div className="imgProj">
+                                    <img
+                                        href="https://github.com/PeterRibs/"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={plants}/>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                        <p className="mb-4">
+                            Using Deep Learning Models to identify images of roots, nuts, fruits and vegetables. In progress...
+                        </p>
+                        </div>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn cta-btn--hero"
+                        href="https://peterribs.github.io/"
+                        >
+                        See Graphs
+                        </a>
+                        <a
+                        rel="noreferrer"
+                        target="_blank"
+                        className="cta-btn text-color-project"
+                        href="https://github.com/PeterRibs/"
+                        >
+                        Source Code
+                        </a>
+                    </div>
+                </div>
+                {/* <!-- /END Project 13 - Py--> */}
 
                 {/* <!-- Project 12 - Py--> */}
                 <div className="card">
