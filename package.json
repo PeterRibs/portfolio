@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
-  "homepage": "https://peterribs.github.io/portfolio/",
+  // "homepage": "https://peterribs.github.io/portfolio/",
+  "homepage": "git@github.com!PeterRibs!portfolio.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
