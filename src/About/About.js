@@ -20,6 +20,7 @@ import docker from '../Figs/docker.png';
 import sqlite from '../Figs/sqlite.png';
 import jupyter from '../Figs/jupyter.png';
 import colab from '../Figs/colab.png';
+import powerbi from '../Figs/powerbi.jpg';
 
 function About (){
     return (
@@ -38,6 +39,7 @@ function About (){
                             <img alt="PostgreSQL" title="PostgreSQL" src={postgresql} className='imgAbout'></img>
                             <img alt="MongoDB" title="MongoDB"src={mongoDB} className='imgAbout'></img>
                             <img alt="Google Colab" title="Google Colab" src={colab} className='imgAbout'></img>
+                            <img alt="Power BI" title="Power BI"  src={powerbi} className='imgAbout'></img>
                             <img alt="Git" title="Git" src={git} className='imgAbout'></img>
                             <img alt="GitHub" title="GitHub"  src={github} className='imgAbout'></img>
                             <img alt="Docker" title="Docker"  src={docker} className='imgAbout'></img>
