@@ -56,145 +56,144 @@ function Project () {
                 <h2 className="section-title dark-blue-text">Courses</h2>
                 <div className="project-wrapper"> 
 
-                {/* <!-- Project 8 - Py--> */}
-                <div className="card">
-                    <div className="project-wrapper__text">
-                        <h3 className="project-wrapper__text-title">Estatística Aplicada à Inteligência de Negócios</h3>
-                        <div className="project-wrapper__image">
-                            <a rel="noreferrer" href="https://github.com/PeterRibs/pythonvideoanalysis">
-                                <div className="imgProj">
-                                    <img
-                                        href="https://github.com/PeterRibs/pythonvideoanalysis"
-                                        alt="Project_Image"
-                                        className="img-fluid"
-                                        src={DescomplicaEstatIntelNeg}/>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                        <p className="mb-4">
-                            Institution: Descomplica
-                            <hr></hr>
-                            30 hours
-                            <hr></hr>
-                        </p>
-                        </div>
-                        <div>
-                            <img alt="R" title="R" src={r} className='imgAbout'></img>
-                            <img alt="Excel" title="Excel" src={excel} className='imgAbout'></img>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- /END Project 8 - Py--> */}
-
-                {/* <!-- Project 7 - Py--> */}
-                <div className="card">
-                    <div className="project-wrapper__text">
-                        <h3 className="project-wrapper__text-title">Estatística Aplicada a Negócios</h3>
-                        <div className="project-wrapper__image">
-                            <a rel="noreferrer" href="https://github.com/PeterRibs/blackjack_game">
-                                <div className="imgProj">
-                                    <img
-                                        href="https://github.com/PeterRibs/blackjack_game"
-                                        alt="Project_Image"
-                                        className="img-fluid"
-                                        src={DescomplicaEstatNeg}/>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                        <p className="mb-4">
-                            Institution: Descomplica
-                            <hr></hr>
-                            30 hours
-                            <hr></hr>
-                        </p>
-                        </div>
-                        <div>
-                            <img alt="Excel" title="Excel" src={excel} className='imgAbout'></img>
+                    {/* <!-- Estatística Aplicada à Inteligência de Negócios --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Estatística Aplicada à Inteligência de Negócios</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaEstatIntelNeg}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                                <img alt="R" title="R" src={r} className='imgAbout'></img>
+                                <img alt="Excel" title="Excel" src={excel} className='imgAbout'></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                {/* <!-- /END Project 7 - Py --> */}
+                    {/* <!-- /END Estatística Aplicada à Inteligência de Negócios --> */}
 
-                {/* <!-- Project 13 - Py--> */}
-                <div className="card">
-                    <div className="project-wrapper__text">
-                        <h3 className="project-wrapper__text-title">Python Fundamentos Para Análise de Dados</h3>
-                        <div className="project-wrapper__image">
-                            <a rel="noreferrer" href="https://github.com/PeterRibs/">
-                                <div className="imgProj">
-                                    <img
-                                        href="https://github.com/PeterRibs/"
-                                        alt="Project_Image"
-                                        className="img-fluid"
-                                        src={DSAPythonAnaliseDados}/>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                        <p className="mb-4">
-                            Institution: Data Science Academy
-                            <hr></hr>
-                            60 hours
-                            <hr></hr>
-                        </p>
-                        </div>
-                        <div>
-                            <img alt="Python" title="Python" src={python} className='imgAbout'></img>
-                            <img alt="Jupyter Notebook" title="Jupyter Notebook"  src={jupyter} className='imgAbout'></img>
-                            <img alt="SQLite" title="SQLite"src={sqlite} className='imgAbout'></img>
-                            <img alt="MongoDB" title="MongoDB"src={mongoDB} className='imgAbout'></img>
-                            <img alt="Pandas" title="Pandas" src={pandas} className='imgAbout'></img>
-                            <img alt="NumPy" title="NumPy" src={numpy} className='imgAbout'></img>
-                            <img alt="Matplotlib" title="Matplotlib"  src={matplotlib} className='imgAbout'></img>
-                            <img alt="Scipy" title="Scipy"  src={scipy} className='imgAbout'></img>
-                            <img alt="Scikit learn" title="Scikit learn"  src={scikitlearn} className='imgAbout'></img>
-                            <img alt="Seaborn" title="Seaborn"  src={seaborn} className='imgAbout'></img>
-                            <img alt="TensorFlow" title="TensorFlow"  src={tensorflow} className='imgAbout'></img>
-                            <img alt="GoogleColab" title="Google Colab" src={colab} className='imgAbout'></img>
-                            <img alt="HTML" title="HTML" src={html} className='imgAbout'></img>
+                    {/* <!-- Estatística Aplicada a Negócios --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Estatística Aplicada a Negócios</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaEstatNeg}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                                <img alt="Excel" title="Excel" src={excel} className='imgAbout'></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                {/* <!-- /END Project 13 - Py--> */}
+                    {/* <!-- /END Estatística Aplicada a Negócios --> */}
 
-                {/* <!-- Project 6 - Py--> */}
-                <div className="card">
-                    <div className="project-wrapper__text">
-                        <h3 className="project-wrapper__text-title">Governança e Qualidade de Dados</h3>
-                        <div className="project-wrapper__image">
-                            <a rel="noreferrer" href="https://github.com/PeterRibs/tictactoe_python">
-                                <div className="imgProj">
-                                    <img
-                                        href="https://github.com/PeterRibs/tictactoe_python"
-                                        alt="Project_Image"
-                                        className="img-fluid"
-                                        src={DescomplicaGovernQualiDados}/>
-                                </div>
-                            </a>
-                        </div>
-                        <div>
-                        <p className="mb-4">
-                            Institution: Descomplica
-                            <hr></hr>
-                            30 hours
-                            <hr></hr>   
-                        </p>
+                    {/* <!-- Python Fundamentos Para Análise de Dados --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Python Fundamentos Para Análise de Dados</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="https://mycourse.app/k3u2H9Ds9Fg91ufg6">
+                                    <div className="imgProj">
+                                        <img
+                                            href="https://mycourse.app/k3u2H9Ds9Fg91ufg6"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DSAPythonAnaliseDados}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Data Science Academy
+                                <hr></hr>
+                                60 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                                <img alt="Python" title="Python" src={python} className='imgAbout'></img>
+                                <img alt="Jupyter Notebook" title="Jupyter Notebook"  src={jupyter} className='imgAbout'></img>
+                                <img alt="SQLite" title="SQLite"src={sqlite} className='imgAbout'></img>
+                                <img alt="MongoDB" title="MongoDB"src={mongoDB} className='imgAbout'></img>
+                                <img alt="Pandas" title="Pandas" src={pandas} className='imgAbout'></img>
+                                <img alt="NumPy" title="NumPy" src={numpy} className='imgAbout'></img>
+                                <img alt="Matplotlib" title="Matplotlib"  src={matplotlib} className='imgAbout'></img>
+                                <img alt="Scipy" title="Scipy"  src={scipy} className='imgAbout'></img>
+                                <img alt="Scikit learn" title="Scikit learn"  src={scikitlearn} className='imgAbout'></img>
+                                <img alt="Seaborn" title="Seaborn"  src={seaborn} className='imgAbout'></img>
+                                <img alt="TensorFlow" title="TensorFlow"  src={tensorflow} className='imgAbout'></img>
+                                <img alt="GoogleColab" title="Google Colab" src={colab} className='imgAbout'></img>
+                                <img alt="HTML" title="HTML" src={html} className='imgAbout'></img>
+                            </div>
                         </div>
                     </div>
-                </div>
-                {/* <!-- /END Project 6 - Py --> */}
+                    {/* <!-- /END Python Fundamentos Para Análise de Dados --> */}
 
-                {/* <!-- Project 5 - Py--> */}
-                <div className="card">
+                    {/* <!-- Governança e Qualidade de Dados --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Governança e Qualidade de Dados</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaGovernQualiDados}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>   
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Governança e Qualidade de Dados --> */}
+
+                    {/* <!-- Gestão do Tempo --> */}
+                    <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Gestão do Tempo</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://github.com/PeterRibs/probability_calculator">
+                                <a rel="noreferrer" href="#courses">
                                     <div className="imgProj">
-                                        <img
-                                            href="https://github.com/PeterRibs/probability_calculator"
+                                        <img href="#courses"
                                             alt="Project_Image"
                                             className="img-fluid"
                                             src={DescomplicaTempo}/>
@@ -211,17 +210,16 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 5 - Py--> */}
+                    {/* <!-- /END Gestão do Tempo--> */}
 
-                    {/* <!-- Project 3 - Py--> */}
+                    {/* <!-- Inteligência Artificial Fundamentos --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Inteligência Artificial Fundamentos</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://github.com/PeterRibs/arithmetic_arranger">
+                                <a rel="noreferrer" href="https://mycourse.app/dbLmr4bdiGYKXCeX6">
                                     <div className="imgProj">
-                                        <img
-                                            href="https://github.com/PeterRibs/arithmetic_arranger"
+                                        <img href="https://mycourse.app/dbLmr4bdiGYKXCeX6"
                                             alt="Project_Image"
                                             className="img-fluid"
                                             src={DSAIA}/>
@@ -241,16 +239,16 @@ function Project () {
                             </div> */}
                         </div>
                     </div>
-                    {/* <!-- /END Project 3 - Py --> */}
+                    {/* <!-- /END Inteligência Artificial Fundamentos --> */}
                     
-                    {/* <!-- Project 5--> */}
+                    {/* <!-- Introdução à Análise de Dados - Microsoft Power BI --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Introdução à Análise de Dados - Microsoft Power BI</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/r2d2.github.io/" target="_blank">
+                                <a rel="noreferrer" href="https://www.ev.org.br/validar-certificado" target="_blank">
                                     <div className="imgProj">
-                                        <img
+                                        <img href="https://www.ev.org.br/validar-certificado"
                                         alt="Project_Image"
                                         className="img-fluid"
                                         src={FundBradescoIntroPowerBI}
@@ -271,19 +269,19 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 5 --> */}
+                    {/* <!-- /END Introdução à Análise de Dados - Microsoft Power BI --> */}
 
-                    {/* <!-- Project 6--> */}
+                    {/* <!-- Pandas --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Pandas</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/background-generator/" target="_blank">
+                                <a rel="noreferrer" href="https://www.kaggle.com/learn/certification/pedroribs/pandas" target="_blank">
                                 <div className="imgProj">
-                                    <img
-                                    alt="Project_Image"
-                                    className="img-fluid"
-                                    src={KagglePandas}
+                                    <img href="https://www.kaggle.com/learn/certification/pedroribs/pandas"
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={KagglePandas}
                                     />
                                 </div>
                                 </a>
@@ -302,14 +300,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 6--> */}
+                    {/* <!-- /END Pandas --> */}
 
-                    {/* <!-- Project 6--> */}
+                    {/* <!-- Python --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Python</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/background-generator/" target="_blank">
+                                <a rel="noreferrer" href="https://www.kaggle.com/learn/certification/pedroribs/python" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -332,14 +330,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 6--> */}
+                    {/* <!-- /END Python --> */}
 
-                    {/* <!-- Project 6--> */}
+                    {/* <!-- Scientific Computing with Python --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Scientific Computing with Python</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/background-generator/" target="_blank">
+                                <a rel="noreferrer" href="https://freecodecamp.org/certification/PeterRibs/scientific-computing-with-python-v7" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -365,14 +363,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 6--> */}
+                    {/* <!-- /END Scientific Computing with Python --> */}
 
-                    {/* <!-- Project 4--> */}
+                    {/* <!-- R Programming: Advanced Analytics In R For Data Science--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">R Programming: Advanced Analytics In R For Data Science</h3>
                                 <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/simpleCalculator/" target="_blank">
+                                <a rel="noreferrer" href="http://ude.my/UC-1df4de30-e6e4-432a-a028-fb8b1bde6de3" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
@@ -395,14 +393,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 4 --> */}
+                    {/* <!-- /END R Programming: Advanced Analytics In R For Data Science --> */}
 
-                    {/*<!--project 3-->*/}
+                    {/*<!--R Programming A-Z: R For Data Science-->*/}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">R Programming A-Z: R For Data Science</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
+                                <a rel="noreferrer" href="http://ude.my/UC-ca090def-344f-4f7e-8d1b-ce6e1fcde4dd" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
@@ -425,14 +423,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!--End project 3--> */}
+                    {/* <!--End R Programming A-Z: R For Data Science--> */}
 
-                    {/*<!--project 3-->*/}
+                    {/*<!-- Python Completo - Do iniciante ao avançado! -->*/}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Python Completo - Do iniciante ao avançado!</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
+                                <a rel="noreferrer" href="http://ude.my/UC-7a45929b-cbae-4905-ad07-cb1dfb7b19a2.pdf" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
@@ -455,14 +453,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!--End project 3--> */}
+                    {/* <!--End Python Completo - Do iniciante ao avançado! --> */}
 
-                    {/*<!--project 3-->*/}
+                    {/*<!-- Big Data Fundamentos -->*/}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Big Data Fundamentos</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
+                                <a rel="noreferrer" href="https://mycourse.app/b1SBvSfYA13Gr3wR8" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
@@ -485,14 +483,14 @@ function Project () {
                             </div> */}
                         </div>
                     </div>
-                    {/* <!--End project 3--> */}
+                    {/* <!--End Big Data Fundamentos --> */}
 
-                    {/*<!--project 3-->*/}
+                    {/*<!-- Introdução à Ciência de Dados -->*/}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Introdução à Ciência de Dados</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
+                                <a rel="noreferrer" href="https://mycourse.app/N7nGYektrhsaVSSA7" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
@@ -515,14 +513,14 @@ function Project () {
                             </div> */}
                         </div>
                     </div>
-                    {/* <!--End project 3--> */}
+                    {/* <!--End Introdução à Ciência de Dados --> */}
 
-                    {/*<!--project 3-->*/}
+                    {/*<!-- Data Science para Iniciantes: Fácil e Simples! -->*/}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Data Science para Iniciantes: Fácil e Simples!</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/tictactoe/" target="_blank">
+                                <a rel="noreferrer" href="https://www.eia.ai/certificates/cert_brBJC42m" target="_blank">
                                     <div className="imgProj">
                                         <img
                                         alt="Project_Image"
@@ -545,14 +543,14 @@ function Project () {
                             </div> */}
                         </div>
                     </div>
-                    {/* <!--End project 3--> */}
+                    {/* <!--End Data Science para Iniciantes: Fácil e Simples! --> */}
                     
-                    {/* <!-- Project 2--> */}
+                    {/* <!-- Introdução a Bancos de Dados e Linguagem SQL --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Introdução a Bancos de Dados e Linguagem SQL</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/ToDoList/" target="_blank">
+                                <a rel="noreferrer" href="https://www.eia.ai/certificates/cert_3vlwCRgx" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -575,14 +573,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 2 --> */}
+                    {/* <!-- /END Introdução a Bancos de Dados e Linguagem SQL --> */}
 
-                    {/* <!-- Project 2--> */}
+                    {/* <!-- Data Science: Visualização de Dados com Python --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Data Science: Visualização de Dados com Python</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/ToDoList/" target="_blank">
+                                <a rel="noreferrer" href="https://alfahelix.com.br/certificados/" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -606,19 +604,19 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 2 --> */}
+                    {/* <!-- /END Data Science: Visualização de Dados com Python --> */}
 
-                    {/* <!-- Project 2--> */}
+                    {/* <!-- Introdução ao Python --> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Introdução ao Python</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/ToDoList/" target="_blank">
+                                <a rel="noreferrer" href="https://alfahelix.com.br/certificados/" target="_blank">
                                 <div className="imgProj">
                                     <img
-                                    alt="Project_Image"
-                                    className="img-fluid"
-                                    src={AlfahelixIntroPython}
+                                        alt="Project_Image"
+                                        className="img-fluid"
+                                        src={AlfahelixIntroPython}
                                     />
                                 </div>
                                 </a>
@@ -636,14 +634,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 2 --> */}
+                    {/* <!-- /END Introdução ao Python --> */}
 
-                    {/* <!-- Project 1--> */}
+                    {/* <!-- Python - Curso Rápido--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Python - Curso Rápido</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">
+                                <a rel="noreferrer" href="https://www.cod3r.com.br/certificates/6ifevnw8hl" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -666,14 +664,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 1 --> */}
+                    {/* <!-- /END Python - Curso Rápido --> */}
 
-                    {/* <!-- Project 1--> */}
+                    {/* <!-- Full-stack--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Full-stack (Front-end & Back-end)</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">
+                                <a rel="noreferrer" href="http://ude.my/UC-796a8b78-d447-440a-a1b8-187872e09570" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -705,14 +703,14 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 1 --> */}
+                    {/* <!-- /END Full-stack --> */}
 
-                    {/* <!-- Project 1--> */}
+                    {/* <!-- Introdução à Programação com Python--> */}
                     <div className="card">
                         <div className="project-wrapper__text">
                             <h3 className="project-wrapper__text-title">Introdução à Programação com Python</h3>
                             <div className="project-wrapper__image">
-                                <a rel="noreferrer" href="https://peterribs.github.io/simplegame/" target="_blank">
+                                <a rel="noreferrer" href="#courses" target="_blank">
                                 <div className="imgProj">
                                     <img
                                     alt="Project_Image"
@@ -737,7 +735,7 @@ function Project () {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- /END Project 1 --> */}
+                    {/* <!-- /END Introdução à Programação com Python --> */}
 
                 </div>
             </div>
