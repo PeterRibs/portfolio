@@ -8,6 +8,12 @@ import DescomplicaEstatIntelNeg from "./DescomplicaEstatIntelNeg.png"
 import DescomplicaEstatNeg from "./DescomplicaEstatNeg.png"
 import DescomplicaGovernQualiDados from "./DescomplicaGovernQualiDados.png"
 import DescomplicaTempo from "./DescomplicaTempo.png"
+import DescomplicaStorytelling from "./DescomplicaStorytelling.png"
+import DescomplicaSegurancaPrivacidade from "./DescomplicaSegurancaPrivacidade.png"
+import DescomplicaComputacaoNuvem from "./DescomplicaComputacaoNuvem.png"
+import DescomplicaFundamentosBigData from "./DescomplicaFundamentosBigData.png"
+import FGVGestaoCarbono from "./FGVGestaoCarbono.png"
+import FGVMensuracaoCarbono from "./FGVMensuracaoCarbono.png"
 import DSABigData from "./DSABigData.png"
 import DSAIA from "./DSAIA.png"
 import Cod3rPython from "./Cod3rPython.png"
@@ -55,6 +61,181 @@ function Project () {
             <div className="container">
                 <h2 className="section-title dark-blue-text">Courses</h2>
                 <div className="project-wrapper"> 
+
+                    {/* <!-- Computação em Nuvem --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Computação em Nuvem</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaFundamentosBigData}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Fundamentos de Big Data --> */}
+
+                    {/* <!-- Fundamentos de Big Data --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Fundamentos de Big Data</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaFundamentosBigData}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Fundamentos de Big Data --> */}
+
+                    {/* <!-- Segurança e Privacidade --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Segurança e Privacidade</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaSegurancaPrivacidade}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Segurança e Privacidade --> */}
+
+                    {/* <!-- Gestão Estratégica de Carbono --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Gestão Estratégica de Carbono</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={FGVGestaoCarbono}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: FGV
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Gestão Estratégica de Carbono --> */}
+                        
+                    {/* <!-- Mensuração de Carbono na Agricultura e Pecuária --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Mensuração de Carbono na Agricultura e Pecuária</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={FGVMensuracaoCarbono}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Observatório de Bioeconomia da Fundação Getulio Vargas
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                                <img alt="Excel" title="Excel" src={excel} className='imgAbout'></img>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Mensuração de Carbono na Agricultura e Pecuária --> */}
+                    
+                    {/* <!-- Storytelling --> */}
+                    <div className="card">
+                        <div className="project-wrapper__text">
+                            <h3 className="project-wrapper__text-title">Storytelling</h3>
+                            <div className="project-wrapper__image">
+                                <a rel="noreferrer" href="#courses">
+                                    <div className="imgProj">
+                                        <img
+                                            href="#courses"
+                                            alt="Project_Image"
+                                            className="img-fluid"
+                                            src={DescomplicaStorytelling}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <p className="mb-4">
+                                Institution: Descomplica
+                                <hr></hr>
+                                30 hours
+                                <hr></hr>
+                            </p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- /END Estatística Aplicada à Inteligência de Negócios --> */}
 
                     {/* <!-- Estatística Aplicada à Inteligência de Negócios --> */}
                     <div className="card">

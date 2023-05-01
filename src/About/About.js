@@ -14,7 +14,7 @@ import nodejs from '../Figs/nodejs.png';
 import postgresql from '../Figs/Postgresql.png';
 import postman from '../Figs/postman.png';
 import github from '../Figs/github.png';
-import mongoDB from '../Figs/mongoDB.png';
+import dbeaver from '../Figs/dbeaver.png';
 import git from '../Figs/git.png';
 import docker from '../Figs/docker.png';
 import sqlite from '../Figs/sqlite.png';
@@ -37,9 +37,8 @@ function About (){
                             <img alt="R" title="R" src={r} className='imgAbout'></img>
                             <img alt="SQLite" title="SQLite"src={sqlite} className='imgAbout'></img>
                             <img alt="PostgreSQL" title="PostgreSQL" src={postgresql} className='imgAbout'></img>
-                            <img alt="MongoDB" title="MongoDB"src={mongoDB} className='imgAbout'></img>
+                            <img alt="DBeaver" title="DBeaver"src={dbeaver} className='imgAbout'></img>
                             <img alt="Google Colab" title="Google Colab" src={colab} className='imgAbout'></img>
-                            <img alt="Power BI" title="Power BI"  src={powerbi} className='imgAbout'></img>
                             <img alt="Git" title="Git" src={git} className='imgAbout'></img>
                             <img alt="GitHub" title="GitHub"  src={github} className='imgAbout'></img>
                             <img alt="Docker" title="Docker"  src={docker} className='imgAbout'></img>
@@ -47,7 +46,6 @@ function About (){
                             <img alt="CSS3" title="CSS3"  src={css} className='imgAbout'></img>
                             <img alt="Javascript" title="Javascript"  src={javascript} className='imgAbout'></img>
                             <img alt="ReactJS" title="ReactJS"  src={react} className='imgAbout'></img>
-                            <img alt="NodeJS" title="NodeJS"  src={nodejs} className='imgAbout'></img>
                             <img alt="Web APIs" title="Web APIs"  src={api} className='imgAbout'></img>
                             <img alt="NPM" title="NPM"  src={npm} className='imgAbout'></img>
                             <img alt="Postman" title="Postman"  src={postman} className='imgAbout'></img>
