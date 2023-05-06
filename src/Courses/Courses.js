@@ -73,7 +73,7 @@ function Project () {
                                             href="#courses"
                                             alt="Project_Image"
                                             className="img-fluid"
-                                            src={DescomplicaFundamentosBigData}/>
+                                            src={DescomplicaComputacaoNuvem}/>
                                     </div>
                                 </a>
                             </div>
